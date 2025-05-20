@@ -10,7 +10,7 @@
             </div>
         </div>
     </div>
-    <div class="hotel_booking_area position">
+    <div class=" position">
         <div class="container">
             <div class="hotel_booking_table">
                 <div class="col-md-3">

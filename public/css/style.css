@@ -552,47 +552,183 @@ button:focus {
 
 /*===================hero section start=========================*/
 
-.hero-slider {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	left: 0;
-	top: 0;
+.banner_area {
+  background: #04091e;
+  position: relative;
+  z-index: 1;
 }
-.hero-slider.owl-carousel .owl-dots {
-	position: absolute;
-	left: 0;
-	bottom: 23px;
-	width: 100%;
-	text-align: center;
+
+.banner_area .bg-parallax {
+  background: url("https://themewagon.github.io/royal/image/banner_bg.jpg") no-repeat scroll center 0/cover;
+  opacity: 0.50;
 }
-.set-bg {
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: top center;
+
+.banner_area .position {
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  position: absolute;
 }
-.hero-slider.owl-carousel .owl-dots button {
-	height: 6px;
-	width: 6px;
-	background: #ffffff;
-	opacity: 0.5;
-	border-radius: 50%;
-	margin-right: 10px;
-	-webkit-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s;
+.booking_table {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  min-height: 800px;
 }
-.hero-slider.owl-carousel .owl-dots button.active {
-	width: 30px;
-	border-radius: 50px;
-	opacity: 1;
+.hotel_booking_table {
+  background: #04091e;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 40px 50px 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
-.hero-slider.owl-carousel .owl-dots button:last-child {
-	margin-right: 0;
+.hotel_booking_table h2 {
+  font-size: 24px;
+  line-height: 30px;
+  color: #fff;
+  text-transform: uppercase;
 }
-.hero-slider .owl-stage-outer, .hero-slider .owl-stage, .hero-slider .owl-item, .hero-slider .hs-item {
-	height: 100%;
+.overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 125%;
+  bottom: 0;
+  z-index: -1;
 }
+.single-post-area .thumb .overlay-bg {
+  background: rgba(0, 0, 0, 0.8);
+}
+.banner_content {
+  color: #fff;
+  margin-bottom: 94px;
+}
+
+.banner_content h6 {
+  font-size: 14px;
+  line-height: 30px;
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+  font-weight: 400;
+}
+.hotel_booking_table {
+  background: #04091e;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 40px 50px 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.banner_content h2 {
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 700;
+}
+
+.banner_content p {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  padding: 10px 0px 20px;
+}
+.boking_table {
+  margin-left: -50px;
+}
+
+.book_tabel_item .form-group {
+  margin-bottom: 0px;
+}
+
+.book_tabel_item .form-group .input-group {
+  position: relative;
+}
+
+.book_tabel_item .form-group .input-group .form-control {
+  border: 1px solid #2b3146;
+  background: transparent;
+  border-radius: 0px;
+  font-size: 13px;
+  line-height: 38px;
+  padding: 0px 20px;
+  color: #777777;
+  z-index: 0;
+}
+
+.book_tabel_item .form-group .input-group .form-control.placeholder {
+  color: #777777;
+}
+
+.book_tabel_item .form-group .input-group .form-control:-moz-placeholder {
+  color: #777777;
+}
+
+.book_tabel_item .form-group .input-group .form-control::-moz-placeholder {
+  color: #777777;
+}
+
+.book_tabel_item .form-group .input-group .form-control::-webkit-input-placeholder {
+  color: #777777;
+}
+
+.book_tabel_item .form-group .input-group .form-control:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.book_tabel_item .form-group .input-group .input-group-addon {
+  background: transparent;
+  padding: 0px;
+  border: 0px;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  color: #777777;
+  z-index: 2;
+}
+
+.book_tabel_item .input-group {
+  margin-bottom: 10px;
+}
+
+.book_tabel_item .nice-select {
+  background: transparent;
+  border-radius: 0px;
+  border: 1px solid #2b3146;
+  font-size: 13px;
+  line-height: 40px;
+  height: 40px;
+  color: #777;
+}
+
+.book_tabel_item .nice-select:after {
+  content: "\e874";
+  font-family: 'Linearicons-Free';
+  font-size: 13px;
+  color: #777777;
+  border: 0px;
+  top: 0;
+  margin-top: 0px;
+  right: 20px;
+  -webkit-transform: rotate(0);
+  -ms-transform: rotate(0);
+  transform: rotate(0);
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+}
+
+
 
 /*---------------------------------------------------- */
                         /*end hero css  */
@@ -605,9 +741,7 @@ button:focus {
 
 
 .our_room {
-  /* background-color: #f4f5f7; */
   padding: 60px 0 30px 0;
-  /* margin-top: 90px; */
 }
 .our_room .titlepage {
   text-align: center;
@@ -891,28 +1025,7 @@ background-color: #f4f5f7;
   min-width: 100%;
 }
 
-@media only screen and (max-width: 991px) {
-  .about-text {
-    margin-bottom: 30px;
-  }
 
-  .about-pic img {
-    margin-bottom: 20px;
-  }
-
-}
-
-@media only screen and (max-width: 767px) {
-  .about-text .section-title h2 {
-    font-size: 30px;
-    line-height: 40px;
-  }
-
-  .about-text .section-title h2 {
-    font-size: 30px;
-    line-height: 40px;
-  }
-}
 
 /*---------------------------------------------------- */
                         /*end about css  */
@@ -971,178 +1084,212 @@ background-color: #f4f5f7;
 	text-transform: uppercase;
 	letter-spacing: 3px;
 }
-/*============= Start banner_area css =============*/
-.banner_area {
-  background: #04091e;
-  position: relative;
-  z-index: 1;
+
+
+/*---------------------------------------------------- */
+                        /*end blogs css  */
+/*----------------------------------------------------*/
+
+
+
+
+
+/*============= start footer css =============*/
+
+.footer-section {
+	background: #222736;
+}
+.footer-section .footer-text {
+	padding: 80px 0 30px;
+}
+.footer-section .footer-text .ft-about {
+	margin-bottom: 30px;
+}
+.footer-section .footer-text .ft-about .logo {
+	margin-bottom: 20px;
+}
+.footer-section .footer-text .ft-about .logo a {
+	display: inline-block;
+}
+.footer-section .footer-text .ft-about p {
+	color: #aaaab3;
+	margin-bottom: 20px;
+}
+.footer-section .footer-text .ft-about .fa-social a {
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	font-size: 16px;
+	line-height: 40px;
+	text-align: center;
+	color: #ffffff;
+	border: 1px solid #5A4D48;
+	border-radius: 50%;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+	margin-right: 7px;
+}
+.footer-section .footer-text .ft-about .fa-social a:hover {
+	background: #dfa974;
+	border-color: #dfa974;
+}
+.footer-section .footer-text .ft-contact {
+	margin-bottom: 30px;
+}
+.footer-section .footer-text .ft-contact h6 {
+	font-size: 14px;
+	color: #dfa974;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 3px;
+	font-family: "Cabin", sans-serif;
+  margin-left: 40px;
+	margin-bottom: 20px;
+}
+.footer-section .footer-text .ft-contact ul li {
+	font-size: 16px;
+	color: #aaaab3;
+	line-height: 32px;
+	list-style: none;
+}
+.footer-section .footer-text .ft-newslatter h6 {
+	font-size: 14px;
+	color: #dfa974;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 3px;
+	font-family: "Cabin", sans-serif;
+	margin-bottom: 20px;
+}
+.footer-section .footer-text .ft-newslatter p {
+	color: #aaaab3;
+	margin-bottom: 20px;
+}
+.footer-section .footer-text .ft-newslatter .fn-form {
+	position: relative;
+}
+.footer-section .footer-text .ft-newslatter .fn-form input {
+	width: 100%;
+	height: 50px;
+	border-radius: 2px;
+	background: #393D4A;
+	border: none;
+	padding-left: 20px;
+	font-size: 16px;
+	color: #707079;
+}
+.footer-section .footer-text .ft-newslatter .fn-form button {
+	position: absolute;
+	right: 0;
+	top: 0;
+	font-size: 16px;
+	background: #dfa974;
+	color: #ffffff;
+	padding: 0 16px;
+	height: 50px;
+	border: none;
+	border-radius: 0 2px 2px 0;
+}
+.footer-section .copyright-option {
+	background: rgba(16, 20, 31, 0.2);
+	padding: 20px 0;
+}
+.footer-section .copyright-option ul li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 34px;
+}
+.footer-section .copyright-option ul li:last-child {
+	margin-right: 0;
+}
+.footer-section .copyright-option ul li a {
+	font-size: 16px;
+	color: #aaaab3;
+}
+.footer-section .copyright-option .co-text {
+	font-size: 16px;
+	color: #707079;
+	text-align: right;
 }
 
-.banner_area .bg-parallax {
-  background: url("https://themewagon.github.io/royal/image/banner_bg.jpg") no-repeat scroll center 0/cover;
-  opacity: 0.50;
+
+
+
+
+
+/*=========== mdeia querry css =============*/
+@media only screen and (max-width: 991px) {
+  .about-text {
+    margin-bottom: 30px;
+  }
+
+  .about-pic img {
+    margin-bottom: 20px;
+  }
+  .footer-section .copyright-option ul {
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	.footer-section .copyright-option .co-text {
+		text-align: center;
+	}
+
 }
 
-.banner_area .position {
-  width: 100%;
-  bottom: 0;
-  left: 0;
-  position: absolute;
+@media only screen and (max-width: 767px) {
+  .about-text .section-title h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .about-text .section-title h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .footer-section .copyright-option ul li {
+		margin-right: 25px;
+	}
 }
 
-.booking_table {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  min-height: 800px;
+@media only screen and (max-width: 479px) {
+	.footer-section .copyright-option ul li {
+		margin-bottom: 5px;
+	}
 }
 
-.overlay {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  height: 125%;
-  bottom: 0;
-  z-index: -1;
-}
 
-.banner_content {
-  color: #fff;
-  margin-bottom: 94px;
-}
 
-.banner_content h6 {
-  font-size: 14px;
-  line-height: 30px;
-  text-transform: uppercase;
-  letter-spacing: 1.4px;
-  font-weight: 400;
-}
 
-.banner_content h2 {
-  font-size: 60px;
-  line-height: 60px;
-  font-weight: 700;
-}
 
-.banner_content p {
-  font-weight: 300;
-  font-size: 14px;
-  line-height: 24px;
-  padding: 10px 0px 20px;
-}
 
-/*============= End banner_area css =============*/
-.hotel_booking_table {
-  background: #04091e;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  padding: 40px 50px 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
 
-.hotel_booking_table h2 {
-  font-size: 24px;
-  line-height: 30px;
-  color: #fff;
-  text-transform: uppercase;
-}
 
-.boking_table {
-  margin-left: -50px;
-}
+/* ----------------------------------------------- */
+                    /*end media css  */
+/* ----------------------------------------------- */
 
-.book_tabel_item .form-group {
-  margin-bottom: 0px;
-}
 
-.book_tabel_item .form-group .input-group {
-  position: relative;
-}
 
-.book_tabel_item .form-group .input-group .form-control {
-  border: 1px solid #2b3146;
-  background: transparent;
-  border-radius: 0px;
-  font-size: 13px;
-  line-height: 38px;
-  padding: 0px 20px;
-  color: #777777;
-  z-index: 0;
-}
 
-.book_tabel_item .form-group .input-group .form-control.placeholder {
-  color: #777777;
-}
 
-.book_tabel_item .form-group .input-group .form-control:-moz-placeholder {
-  color: #777777;
-}
 
-.book_tabel_item .form-group .input-group .form-control::-moz-placeholder {
-  color: #777777;
-}
 
-.book_tabel_item .form-group .input-group .form-control::-webkit-input-placeholder {
-  color: #777777;
-}
 
-.book_tabel_item .form-group .input-group .form-control:focus {
-  outline: none;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-}
 
-.book_tabel_item .form-group .input-group .input-group-addon {
-  background: transparent;
-  padding: 0px;
-  border: 0px;
-  position: absolute;
-  right: 20px;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  color: #777777;
-  z-index: 2;
-}
 
-.book_tabel_item .input-group {
-  margin-bottom: 10px;
-}
 
-.book_tabel_item .nice-select {
-  background: transparent;
-  border-radius: 0px;
-  border: 1px solid #2b3146;
-  font-size: 13px;
-  line-height: 40px;
-  height: 40px;
-  color: #777;
-}
 
-.book_tabel_item .nice-select:after {
-  content: "\e874";
-  font-family: 'Linearicons-Free';
-  font-size: 13px;
-  color: #777777;
-  border: 0px;
-  top: 0;
-  margin-top: 0px;
-  right: 20px;
-  -webkit-transform: rotate(0);
-  -ms-transform: rotate(0);
-  transform: rotate(0);
-  -webkit-transform-origin: 0 0;
-  -ms-transform-origin: 0 0;
-  transform-origin: 0 0;
-}
 
-/*=========== breadcrumb_area css =============*/
+
+
+
+
+
+
+
+
+
 .breadcrumb_area {
   position: relative;
   padding: 172px 0px 84px;
@@ -1189,7 +1336,7 @@ background-color: #f4f5f7;
   margin: 0px 10px 0px 7px;
 }
 
-/*============= End banner_area css =============*/
+
 /*=============Blog Banner css =============*/
 .blog_banner {
   min-height: 780px;
@@ -1936,9 +2083,7 @@ background-color: #f4f5f7;
   font-weight: 600;
 }
 
-.single-post-area .thumb .overlay-bg {
-  background: rgba(0, 0, 0, 0.8);
-}
+
 
 .single-post-area .navigation-area {
   border-top: 1px solid #eee;
@@ -2073,19 +2218,7 @@ background-color: #f4f5f7;
   padding-left: 25px;
 }
 
-@media (max-width: 413px) {
-  .comments-area .comment-list .single-comment h5 {
-    font-size: 12px;
-  }
 
-  .comments-area .comment-list .single-comment .date {
-    font-size: 11px;
-  }
-
-  .comments-area .comment-list .single-comment .comment {
-    font-size: 10px;
-  }
-}
 
 .comments-area .thumb {
   margin-right: 20px;

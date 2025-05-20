@@ -3,9 +3,12 @@
 use App\Http\Controllers\Admin\DashboardController;
 use App\Http\Controllers\Admin\RoomController;
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\BlogController;
+use App\Http\Controllers\RoomController as ControllersRoomController;
 use Illuminate\Support\Facades\Route;
+Route::get('/',[BlogController::class,'index'])->name('index');
+Route::get('/admin',[DashboardController::class,'index'])->name('dashboard.index');
 
-Route::get('/',[DashboardController::class,'index'])->name('dashboard.index');
 
 
 // login or su=ignup routes
@@ -18,7 +21,7 @@ Route::post("/register", [AuthController::class, 'register'])->name("register");
 
 // rooms crud
 
-Route::prefix('admin')->middleware(['auth'])->group(function () {
+Route::prefix('admin')->middleware(['auth','is_admin'])->group(function () {
     Route::get('/rooms', [RoomController::class, 'index'])->name('rooms.index');
     Route::get('/rooms/create', [RoomController::class, 'create'])->name('rooms.create');
     Route::post('/rooms', [RoomController::class, 'store'])->name('rooms.store');

@@ -30,7 +30,7 @@ class AuthController extends Controller
         if (Auth::attempt($credentials)) {
             $request->session()->regenerate();
 
-            return redirect()->route('dashboard.index');
+            return redirect()->route('index');
         }
 
         // error redirect
@@ -47,7 +47,7 @@ class AuthController extends Controller
 
         $request->session()->regenerateToken();
 
-        return view('auth.loginForm');
+        return view('welcome');
     }
 
     public function signupForm()
@@ -80,6 +80,5 @@ class AuthController extends Controller
 
         return redirect()->route('loginForm');
 
-        dd($request->all());
     }
 }

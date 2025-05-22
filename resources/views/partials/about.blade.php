@@ -85,6 +85,7 @@
          </div>
      </div>
  </section>
+<<<<<<< HEAD
  <!--================ about Area  =================-->
  <!-- Blog Section Begin -->
 <section class="blog-section spad">
@@ -147,3 +148,6 @@
     </div>
 </section>
 <!-- Blog Section End -->
+=======
+ <!--================ about Area  =================-->
+>>>>>>> 67267aadb1b3084f9cf5104d13370fece08adce9

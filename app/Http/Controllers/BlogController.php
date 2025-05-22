@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 
 class BlogController extends Controller
 {
+<<<<<<< HEAD
    public function index(){
         $rooms = Room::latest()->paginate(5);
         
@@ -21,3 +22,11 @@ public function about(){
         return view('blog.about');
 }
 }
+=======
+    public function index(){
+        $rooms = Room::latest()->paginate(5);
+        
+        return view('blog.index',['rooms' =>$rooms]);
+    }
+}
+>>>>>>> 67267aadb1b3084f9cf5104d13370fece08adce9

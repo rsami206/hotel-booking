@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <header class="header_area  navbar_fixed">
+=======
+ <header class="header_area">
+>>>>>>> 67267aadb1b3084f9cf5104d13370fece08adce9
      <!-- <div class="container"> -->
      <nav class="navbar navbar-expand-lg navbar-light">
          <!-- Brand and toggle get grouped for better mobile display -->
@@ -13,9 +17,15 @@
          <!-- Collect the nav links, forms, and other content for toggling -->
          <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
              <ul class="nav navbar-nav menu_nav ml-auto">
+<<<<<<< HEAD
                  <li class="nav-item active"><a class="nav-link" href="/"><i class="lnr lnr-home"></i>Home
                      </a></li>
                  <li class="nav-item"><a class="nav-link" href="{{ route('about') }}"><i class="lnr lnr-user"></i>About Us
+=======
+                 <li class="nav-item active"><a class="nav-link" href="index.html"><i class="lnr lnr-home"></i>Home
+                     </a></li>
+                 <li class="nav-item"><a class="nav-link" href="about.html"><i class="lnr lnr-user"></i>About Us
+>>>>>>> 67267aadb1b3084f9cf5104d13370fece08adce9
                      </a></li>
                  <li class="nav-item"><a class="nav-link" href="accomodation.html"><i class="lnr lnr-apartment"></i>Rooms
                      </a></li>
@@ -39,17 +49,31 @@
                  @else
                  @Auth
                  <li class="nav-item">
+<<<<<<< HEAD
                      <a class="nav-link" href=""><i class="lnr lnr-calendar-full"></i>Booking</a>
                  </li>
                  @endAuth
                  @if (Auth::user()->role == 'admin')
                       <li class="nav-item">
+=======
+                     <a class="nav-link" href=""><i class="lnr lnr-calendar-full"></i>Booking
+
+                     </a>
+                 </li>
+                 @endAuth
+
+                 <li class="nav-item">
+>>>>>>> 67267aadb1b3084f9cf5104d13370fece08adce9
                      <a class="nav-link" href="{{route('dashboard.index')}}"><i class="lnr lnr-user"></i>Profile
 
                      </a>
                  </li>
+<<<<<<< HEAD
                  @endif
                  
+=======
+
+>>>>>>> 67267aadb1b3084f9cf5104d13370fece08adce9
                  <li class="nav-item">
                      <a class="nav-link" href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
                          <i class="lnr lnr-exit"></i>Logout

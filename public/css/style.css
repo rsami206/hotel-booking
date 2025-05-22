@@ -526,7 +526,11 @@ button:focus {
   position: fixed;
   width: 100%;
   left: 0;
+<<<<<<< HEAD
   background:black;
+=======
+  background: #fff;
+>>>>>>> 67267aadb1b3084f9cf5104d13370fece08adce9
   top: 0;
   top: -50px;
   -webkit-transform: translateY(50px);
@@ -1215,12 +1219,15 @@ background-color: #f4f5f7;
 
 
 
+<<<<<<< HEAD
 /* booking ------------ */
 .booking{
 margin-top: 80px;
 margin-left: 50px;
 }
 
+=======
+>>>>>>> 67267aadb1b3084f9cf5104d13370fece08adce9
 
 
 

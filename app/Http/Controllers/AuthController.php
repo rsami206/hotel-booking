@@ -9,6 +9,7 @@ use Illuminate\Support\Facades\Hash;
 
 class AuthController extends Controller
 {
+   
     public function loginForm()
     {
 
@@ -30,6 +31,7 @@ class AuthController extends Controller
             $request->session()->regenerate();
 
            return redirect()->route('index');
+            return redirect()->route('index');
         }
 
         // error redirect
@@ -47,6 +49,7 @@ class AuthController extends Controller
         $request->session()->regenerateToken();
 
          return redirect('/');
+        return view('welcome');
     }
 
     public function signupForm()
@@ -77,5 +80,8 @@ class AuthController extends Controller
         return redirect()->route('loginForm');
 
        
+
+        return redirect()->route('loginForm');
+
     }
 }

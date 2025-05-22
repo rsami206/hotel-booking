@@ -2,8 +2,13 @@
 
 @section('main')
 <div class="container">
+<<<<<<< HEAD
     <h2 class="my-4 ">Rooms List</h2>
     <a href="{{ route('rooms.create') }}" class="btn btn-success mb-3">+ Add Room</a>
+=======
+    <h2 class="my-4">Rooms List</h2>
+    <a href="{{ route('rooms.create') }}" class="btn btn-primary mb-3">+ Add Room</a>
+>>>>>>> 67267aadb1b3084f9cf5104d13370fece08adce9
 
     @if(session('success'))
         <div class="alert alert-success">{{ session('success') }}</div>
@@ -48,4 +53,8 @@
 
     {{ $rooms->links() }}
 </div>
+<<<<<<< HEAD
 @endsection
+=======
+@endsection
+>>>>>>> 67267aadb1b3084f9cf5104d13370fece08adce9

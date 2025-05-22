@@ -26,8 +26,13 @@
                             {!! $room->description !!}
                         </div>
                         <div class=" d-flex justify-content-around">
+<<<<<<< HEAD
                             <a href="{{ route('room.detail' ,$room->id) }}" class="  theme_btn  detail-button  ">Details</a>
                             <a href="{{ route('book.room', ['room_id' => $room->id]) }}" class="  theme_btn button_hover ">book now</a>
+=======
+                            <a href="" class="  theme_btn  detail-button  ">Details</a>
+                            <a href="" class="  theme_btn button_hover ">book now</a>
+>>>>>>> 67267aadb1b3084f9cf5104d13370fece08adce9
                         </div>
                     </div>
 

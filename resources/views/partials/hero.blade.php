@@ -10,7 +10,11 @@
             </div>
         </div>
     </div>
+<<<<<<< HEAD
     <div class="hotel_booking_area position">
+=======
+    <div class=" position">
+>>>>>>> 67267aadb1b3084f9cf5104d13370fece08adce9
         <div class="container">
             <div class="hotel_booking_table">
                 <div class="col-md-3">
@@ -49,4 +53,9 @@
             </div>
         </div>
     </div>
+<<<<<<< HEAD
 </section>
+=======
+</section>
+ 
+>>>>>>> 67267aadb1b3084f9cf5104d13370fece08adce9

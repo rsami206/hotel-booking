@@ -1,0 +1,94 @@
+/* Custom Navbar Styling */
+.navbar {
+    font-family: 'Arial', sans-serif;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Change navbar brand text color */
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+/* Active link color */
+.nav-link.active {
+    color: #FFD700 !important;
+}
+
+/* Hover effect on navbar links */
+.nav-link:hover {
+    color: #FF6347;
+}
+
+/* Change color of navbar background */
+.navbar-dark.bg-primary {
+    background-color: #002f6c !important;
+}
+
+
+
+
+/* hero */
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+
+/* card
+ */
+
+ .deluxe-room-card {
+    position: relative;
+    border: none;
+    overflow: hidden;
+    color: white;
+}
+
+.deluxe-room-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.price-tag {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #1d1d1d;
+    padding: 6px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    z-index: 10;
+}
+
+.card-overlay {
+    background: rgba(0, 0, 0, 0.5); /* darker for better text contrast */
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.card-overlay .card-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-overlay .card-text {
+    font-size: 14px;
+    color: #ddd;
+}
+
+.card-overlay .btn {
+    background-color: #e3b9a6;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    width: fit-content;
+    margin-top: 15px;
+}
